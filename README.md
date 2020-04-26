@@ -1,15 +1,15 @@
-# How to set up a virtual machine w/ Linux Mint (tina) for development purposes
+# How to set up a virtual machine with Linux for development purposes
 
-    git clone git@github.com:nicoverbruggen/mint-tina-dev-setup.git
-    cd mint-tina-dev-setup
+    git clone git@github.com:nicoverbruggen/dev-setup.git
+    cd dev-setup
     
-Make the script executable:    
+Make the script you want executable:    
     
-    chmod +x ./install.sh
+    chmod +x ./name-of-script.sh
     
-Install PHP 7.3, node 10.x, nginx, MySQL 5.7, etc. by running:
+Install PHP 7.4, node 12.x, nginx, MySQL 5.7, etc. by running:
 
-    ./install.sh
+    ./name-of-script.sh
     
 Your MySQL installation's root account is automatically protected with an auto-generated password. It is echoed in the terminal, but also saved on your desktop.
 
